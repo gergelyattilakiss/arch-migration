@@ -113,7 +113,6 @@ section_install_hyprland() {
         wl-clipboard \
         grim \
         slurp \
-        xwaylandvideobridge \
         brightnessctl \
         playerctl \
         dunst
