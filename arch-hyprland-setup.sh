@@ -244,9 +244,7 @@ section_install_chiaki() {
     info "Installing gaming dependencies..."
     sudo pacman -S --needed --noconfirm \
         gamemode \
-        lib32-gamemode \
         mangohud \
-        lib32-mangohud \
         goverlay
     
     info "Installing controller support..."
