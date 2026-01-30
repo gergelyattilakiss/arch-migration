@@ -174,8 +174,7 @@ section_install_graphics() {
     info "Installing Mesa and VA-API..."
     sudo pacman -S --needed --noconfirm \
         mesa \
-        libva-mesa-driver \
-        mesa-vdpau
+        libva-mesa-driver
     
     # Detect and install appropriate drivers
     if echo "$GPU_VENDOR" | grep -iq "nvidia"; then
